@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "211021663406",
+    "firebase_url": "https://blockscreencontrolapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "blockscreencontrolapp",
+    "storage_bucket": "blockscreencontrolapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211021663406:android:acf3c35d2b38b0aa77313f",
+        "android_client_info": {
+          "package_name": "com.example.blockscreencontrolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211021663406-ragips3o6ro5l8s6b5lnn7hi07dahok3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA37cu_iR2EbDRfbMMJTW5BbyR6neeLWJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211021663406-ragips3o6ro5l8s6b5lnn7hi07dahok3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211021663406:android:0701772fd4de597777313f",
+        "android_client_info": {
+          "package_name": "com.example.blockscreencontrolapp.ui.theme.screens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211021663406-ragips3o6ro5l8s6b5lnn7hi07dahok3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA37cu_iR2EbDRfbMMJTW5BbyR6neeLWJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211021663406-ragips3o6ro5l8s6b5lnn7hi07dahok3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

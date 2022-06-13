@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BlockScreenControlApp</string>
+    <string name="sign_in_title">Login</string>
+    <string name="sign_up_title">Sign up</string>
+    <string name="forgot_title">Forgot?</string>
+    <string name="sign_up_subtitle">Already has account?</string>
+    <string name="sign_up_subtitle_action">Log in</string>
+    <string name="sign_in_subtitle_action">Sign up</string>
+    <string name="sign_in_subtitle">Don\'t have an account?</string>
+    <string name="forgot_subtitle">We are so sorry</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="button_login_text">Log in</string>
+    <string name="log_in_google_text">Log in with google</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_text">Forgot password?</string>
+    <string name="repeat_password_hint">Repeat password</string>
+    <string name="full_name_tint">Full name</string>
+    <string name="sign_up_google_text">Sign up with google</string>
+    <string name="button_sign_up_text">Sign up</string>
+    <string name="main_title">Find room</string>
+    <string name="room_name_tint">Room name</string>
+    <string name="room_password_title">Room password</string>
+    <string name="find_button">Find</string>
+    <string name="create_screen_title">Create Room</string>
+    <string name="create_button">Create</string>
+    <string name="room_title">Room</string>
+</resources>
