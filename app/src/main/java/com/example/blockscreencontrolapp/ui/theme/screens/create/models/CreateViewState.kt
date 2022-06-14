@@ -1,5 +1,7 @@
 package com.example.blockscreencontrolapp.ui.theme.screens.create.models
 
+import com.example.blockscreencontrolapp.ui.theme.common.Guest
+
 
 sealed class CreateAction {
     object OpenRoom: CreateAction()
@@ -7,8 +9,8 @@ sealed class CreateAction {
 }
 
 data class CreateViewState(
+    val guests: List<Guest> = emptyList(),
     val roomName: String = "",
     val roomPassword: String = "",
-    val createAction: CreateAction = CreateAction.None
-
+    val createAction: CreateAction = CreateAction.None,
 )

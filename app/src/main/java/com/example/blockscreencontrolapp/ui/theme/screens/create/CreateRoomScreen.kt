@@ -22,6 +22,8 @@ import com.example.blockscreencontrolapp.ui.theme.screens.create.views.YourRoomV
 @Composable
 fun CreateRoomScreen(createRoomViewModel: CreateRoomViewModel, navController: NavHostController) {
     val viewState = createRoomViewModel.viewState.observeAsState(CreateViewState())
+    //val guests = createRoomViewModel.guests.observeAsState()
+
     Box(
         Modifier
             .fillMaxSize()
@@ -50,7 +52,11 @@ fun CreateRoomScreen(createRoomViewModel: CreateRoomViewModel, navController: Na
                     },
                     onCreateClick = { createRoomViewModel.obtainEvent(CreateRoomEvent.ClickCreateButton) }
                 )
-                CreateAction.OpenRoom -> YourRoomView()
+                CreateAction.OpenRoom -> YourRoomView(
+                    //guests,
+                    viewState = viewState,
+                    viewModel = createRoomViewModel
+                )
             }
         }
         Row(modifier = Modifier.fillMaxSize(), verticalAlignment = Alignment.Bottom) {
